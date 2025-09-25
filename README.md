@@ -1,2 +1,6 @@
 # PasswordGenerator
-A simple password generator
+This project is a simple password generator designed to create secure, random passwords or memorable passphrases. It allows the user to customize the length of the password and choose whether to include uppercase and lowercase letters, numbers, and symbols, while also offering the option to exclude confusing characters such as “0” and “O.” For users who prefer something easier to remember, the tool can also generate passphrases made up of multiple random words, which balance memorability with strong security.
+
+The generator uses a cryptographically secure random number source to ensure the passwords are unpredictable and resistant to brute-force attacks. It can be run from the command line with straightforward options such as specifying password length, number of passwords, or generating a passphrase instead of a standard password. For example, a typical command might produce a 16-character mixed password or a 5-word passphrase like “correct-horse-battery-staple.” Developers can also import the generator as a library, making it easy to integrate into larger projects.
+
+Good password practice is encouraged throughout. While the tool makes strong passwords automatically, it is recommended to use at least 16 characters for standard passwords or 5+ random words for passphrases, store them in a password manager, and enable multi-factor authentication where possible. This ensures that the generated credentials not only meet modern security requirements but also remain practical and safe for everyday use.
